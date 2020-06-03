@@ -1,14 +1,15 @@
 {
   "name": "dok-timescheduler",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Delay action within a time loop",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacklehamster/dok-timescheduler.git"
+    "url": "https://github.com/jacklehamster/dok-timescheduler.git"
   },
   "keywords": [
     "dok"
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/jacklehamster/dok-timescheduler#readme",
   "dependencies": {
     "dok-pool": "^1.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.8"
   }
 }
